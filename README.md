@@ -28,12 +28,6 @@ Make sure you have the following installed before running the API:
    cd django-auth-api
    ```
 
-2. Install the required packages using pip:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 3. Apply migrations:
 
    ```bash
