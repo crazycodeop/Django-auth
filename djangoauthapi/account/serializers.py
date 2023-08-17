@@ -70,7 +70,7 @@ class SendPassResetEmailSerializer(serializers.ModelSerializer):
             print('Password Reset Token ', token)
             link = 'http://localhost:3000/api/user/reset/'+uid+'/'+token
             print('Password Reset Link ', link)
-            body = "Click following link to reset your password " + link
+            body = "Click following link to reset your password" + link
             data = {
                 'subject': 'Reset Password',
                 'body': body,
